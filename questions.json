@@ -1,0 +1,98 @@
+[
+{
+  "question": "Was ist Pseudocode?",
+  "answer": "Eine informelle, textliche Beschreibung eines Algorithmus, die an Programmiersprachen angelehnt, aber nicht ausführbar ist."
+},
+{
+  "question": "Wozu wird Pseudocode verwendet?",
+  "answer": "Um einen Algorithmus verständlich und sprachunabhängig zu planen, bevor er in einer konkreten Programmiersprache umgesetzt wird."
+},
+{
+  "question": "Warum wird Pseudocode verwendet, bevor ein Programm implementiert wird?",
+  "answer": "Um die Logik zu klären und zu prüfen, ohne sich mit Syntaxdetails einer konkreten Sprache aufzuhalten."
+},
+{
+  "question": "Welche Vorteile hat Pseudocode gegenüber konkretem Quellcode?",
+  "answer": "Er ist leichter lesbar, sprachunabhängig und konzentriert sich auf die Logik statt auf Syntax."
+},
+{
+  "question": "Warum ist Pseudocode unabhängig von einer bestimmten Programmiersprache?",
+  "answer": "Weil er allgemeine, natürliche Formulierungen statt sprachspezifischer Syntax verwendet."
+},
+{
+  "question": "Welche Kontrollstrukturen können in Pseudocode dargestellt werden?",
+  "answer": "Sequenz, Verzweigung und Schleife."
+},
+{
+  "question": "Wie wird eine Sequenz in Pseudocode dargestellt?",
+  "answer": "Als Abfolge von Anweisungszeilen ohne Bedingungen, untereinander geschrieben."
+},
+{
+  "question": "Wie wird eine Verzweigung in Pseudocode dargestellt?",
+  "answer": "Mit Schlüsselwörtern wie „WENN … DANN … SONST …“."
+},
+{
+  "question": "Wie wird eine Schleife in Pseudocode dargestellt?",
+  "answer": "Mit Schlüsselwörtern wie „SOLANGE … TUE …“ oder „WIEDERHOLE … BIS …“ bzw. „FÜR … VON … BIS …“."
+},
+{
+  "question": "Wie kann eine Bedingung in Pseudocode erkannt werden?",
+  "answer": "An Schlüsselwörtern wie WENN, FALLS, sowie an Vergleichsoperatoren (=, <, >, ==)."
+},
+{
+  "question": "Wie kann eine Schleife in einem Pseudocode erkannt werden?",
+  "answer": "An Schlüsselwörtern wie SOLANGE, WIEDERHOLE, FÜR, sowie an einem eingerückten, wiederholt ausgeführten Block."
+},
+{
+  "question": "Wie kann eine Verzweigung in einem Pseudocode erkannt werden?",
+  "answer": "An den Schlüsselwörtern WENN/DANN/SONST bzw. an alternativen Programmpfaden."
+},
+{
+  "question": "Was muss beim Lesen eines längeren Pseudocodes beachtet werden?",
+  "answer": "Die Reihenfolge der Anweisungen, alle Bedingungen sowie eingerückte Blöcke müssen genau beachtet werden."
+},
+{
+  "question": "Was ist bei einem Schreibtischtest eines Pseudocodes zu überprüfen?",
+  "answer": "Die aktuellen Werte aller Variablen nach jeder Anweisung sowie der tatsächlich durchlaufene Programmpfad."
+},
+{
+  "question": "Wie wird ein Pseudocode bei einem Schreibtischtest systematisch ausgewertet?",
+  "answer": "Zeile für Zeile abgearbeitet, wobei nach jeder Anweisung die Variablenwerte notiert werden (z. B. in einer Tabelle)."
+},
+{
+  "question": "Wie kann bei einem Schreibtischtest der aktuelle Wert einer Variablen bestimmt werden?",
+  "answer": "Durch schrittweises Nachvollziehen jeder Zuweisung/Operation in der Reihenfolge des Programmablaufs."
+},
+{
+  "question": "Wie kann bei einem Schreibtischtest festgestellt werden, welcher Programmpfad ausgeführt wird?",
+  "answer": "Durch Auswertung jeder Bedingung mit den aktuellen Variablenwerten an der jeweiligen Stelle im Ablauf."
+},
+{
+  "question": "Wie wird bei einer Verzweigung im Pseudocode entschieden, welcher Programmpfad ausgeführt wird?",
+  "answer": "Die Bedingung wird mit den aktuellen Variablenwerten ausgewertet; ist sie wahr, wird der DANN-Zweig ausgeführt, sonst der SONST-Zweig."
+},
+{
+  "question": "Wie wird bei einer Schleife bestimmt, ob ein weiterer Durchlauf stattfindet?",
+  "answer": "Die Schleifenbedingung wird vor (oder nach, bei do-while) jedem Durchlauf mit dem aktuellen Variablenwert geprüft."
+},
+{
+  "question": "Was muss bei jeder Änderung eines Variablenwertes während eines Schreibtischtests beachtet werden?",
+  "answer": "Der neue Wert muss sofort notiert werden, da folgende Anweisungen darauf aufbauen."
+},
+{
+  "question": "Warum muss bei einem Schreibtischtest die Reihenfolge der Anweisungen beachtet werden?",
+  "answer": "Weil spätere Anweisungen von den durch frühere Anweisungen erzeugten Variablenwerten abhängen."
+},
+{
+  "question": "Wie kann der Wert einer Variablen nach mehreren Anweisungen eines Pseudocodes ermittelt werden?",
+  "answer": "Durch schrittweises Verfolgen aller Zuweisungen zu dieser Variable in der korrekten Reihenfolge."
+},
+{
+  "question": "Wie kann das Ergebnis eines längeren Pseudocodes nachvollziehbar ermittelt werden?",
+  "answer": "Durch einen vollständigen, tabellarischen Schreibtischtest über alle Anweisungen hinweg."
+},
+{
+  "question": "Wie kann man bei einem Pseudocode systematisch verfolgen, welche Anweisungen tatsächlich ausgeführt werden?",
+  "answer": "Indem bei jeder Verzweigung/Schleife die Bedingung geprüft und nur der zutreffende Pfad weiterverfolgt wird."
+}
+]
